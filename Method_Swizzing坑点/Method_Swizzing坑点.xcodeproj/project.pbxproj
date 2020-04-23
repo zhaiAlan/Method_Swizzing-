@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E78B2FF324518AF1005841E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B2FF224518AF1005841E0 /* AppDelegate.m */; };
+		E78B2FF624518AF1005841E0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B2FF524518AF1005841E0 /* SceneDelegate.m */; };
+		E78B2FF924518AF1005841E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B2FF824518AF1005841E0 /* ViewController.m */; };
+		E78B2FFC24518AF1005841E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78B2FFA24518AF1005841E0 /* Main.storyboard */; };
+		E78B2FFE24518AF3005841E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78B2FFD24518AF3005841E0 /* Assets.xcassets */; };
+		E78B300124518AF3005841E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78B2FFF24518AF3005841E0 /* LaunchScreen.storyboard */; };
+		E78B300424518AF3005841E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B300324518AF3005841E0 /* main.m */; };
+		E78B300E24518AF3005841E0 /* Method_Swizzing__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B300D24518AF3005841E0 /* Method_Swizzing__Tests.m */; };
+		E78B301924518AF3005841E0 /* Method_Swizzing__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B301824518AF3005841E0 /* Method_Swizzing__UITests.m */; };
+		E78B302824518B1A005841E0 /* XZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B302724518B1A005841E0 /* XZPerson.m */; };
+		E78B302B24518B32005841E0 /* XZStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B302A24518B32005841E0 /* XZStudent.m */; };
+		E78B302E24518B69005841E0 /* XZRunTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B302D24518B69005841E0 /* XZRunTimeTool.m */; };
+		E78B303124518BC2005841E0 /* XZStudent+XZ.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B303024518BC2005841E0 /* XZStudent+XZ.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E78B300A24518AF3005841E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E78B2FE624518AF0005841E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E78B2FED24518AF0005841E0;
+			remoteInfo = "Method_Swizzing坑点";
+		};
+		E78B301524518AF3005841E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E78B2FE624518AF0005841E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E78B2FED24518AF0005841E0;
+			remoteInfo = "Method_Swizzing坑点";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E78B2FEE24518AF0005841E0 /* Method_Swizzing坑点.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Method_Swizzing坑点.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78B2FF124518AF1005841E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E78B2FF224518AF1005841E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E78B2FF424518AF1005841E0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E78B2FF524518AF1005841E0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E78B2FF724518AF1005841E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E78B2FF824518AF1005841E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E78B2FFB24518AF1005841E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E78B2FFD24518AF3005841E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E78B300024518AF3005841E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E78B300224518AF3005841E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78B300324518AF3005841E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E78B300924518AF3005841E0 /* Method_Swizzing坑点Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Method_Swizzing坑点Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78B300D24518AF3005841E0 /* Method_Swizzing__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Method_Swizzing__Tests.m; sourceTree = "<group>"; };
+		E78B300F24518AF3005841E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78B301424518AF3005841E0 /* Method_Swizzing坑点UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Method_Swizzing坑点UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78B301824518AF3005841E0 /* Method_Swizzing__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Method_Swizzing__UITests.m; sourceTree = "<group>"; };
+		E78B301A24518AF3005841E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78B302624518B1A005841E0 /* XZPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZPerson.h; sourceTree = "<group>"; };
+		E78B302724518B1A005841E0 /* XZPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZPerson.m; sourceTree = "<group>"; };
+		E78B302924518B32005841E0 /* XZStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZStudent.h; sourceTree = "<group>"; };
+		E78B302A24518B32005841E0 /* XZStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZStudent.m; sourceTree = "<group>"; };
+		E78B302C24518B69005841E0 /* XZRunTimeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZRunTimeTool.h; sourceTree = "<group>"; };
+		E78B302D24518B69005841E0 /* XZRunTimeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZRunTimeTool.m; sourceTree = "<group>"; };
+		E78B302F24518BC2005841E0 /* XZStudent+XZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XZStudent+XZ.h"; sourceTree = "<group>"; };
+		E78B303024518BC2005841E0 /* XZStudent+XZ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XZStudent+XZ.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E78B2FEB24518AF0005841E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78B300624518AF3005841E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78B301124518AF3005841E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E78B2FE524518AF0005841E0 = {
+			isa = PBXGroup;
+			children = (
+				E78B2FF024518AF1005841E0 /* Method_Swizzing坑点 */,
+				E78B300C24518AF3005841E0 /* Method_Swizzing坑点Tests */,
+				E78B301724518AF3005841E0 /* Method_Swizzing坑点UITests */,
+				E78B2FEF24518AF0005841E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E78B2FEF24518AF0005841E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E78B2FEE24518AF0005841E0 /* Method_Swizzing坑点.app */,
+				E78B300924518AF3005841E0 /* Method_Swizzing坑点Tests.xctest */,
+				E78B301424518AF3005841E0 /* Method_Swizzing坑点UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E78B2FF024518AF1005841E0 /* Method_Swizzing坑点 */ = {
+			isa = PBXGroup;
+			children = (
+				E78B2FF124518AF1005841E0 /* AppDelegate.h */,
+				E78B2FF224518AF1005841E0 /* AppDelegate.m */,
+				E78B2FF424518AF1005841E0 /* SceneDelegate.h */,
+				E78B2FF524518AF1005841E0 /* SceneDelegate.m */,
+				E78B2FF724518AF1005841E0 /* ViewController.h */,
+				E78B2FF824518AF1005841E0 /* ViewController.m */,
+				E78B302624518B1A005841E0 /* XZPerson.h */,
+				E78B302724518B1A005841E0 /* XZPerson.m */,
+				E78B302924518B32005841E0 /* XZStudent.h */,
+				E78B302A24518B32005841E0 /* XZStudent.m */,
+				E78B302F24518BC2005841E0 /* XZStudent+XZ.h */,
+				E78B303024518BC2005841E0 /* XZStudent+XZ.m */,
+				E78B302C24518B69005841E0 /* XZRunTimeTool.h */,
+				E78B302D24518B69005841E0 /* XZRunTimeTool.m */,
+				E78B2FFA24518AF1005841E0 /* Main.storyboard */,
+				E78B2FFD24518AF3005841E0 /* Assets.xcassets */,
+				E78B2FFF24518AF3005841E0 /* LaunchScreen.storyboard */,
+				E78B300224518AF3005841E0 /* Info.plist */,
+				E78B300324518AF3005841E0 /* main.m */,
+			);
+			path = "Method_Swizzing坑点";
+			sourceTree = "<group>";
+		};
+		E78B300C24518AF3005841E0 /* Method_Swizzing坑点Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E78B300D24518AF3005841E0 /* Method_Swizzing__Tests.m */,
+				E78B300F24518AF3005841E0 /* Info.plist */,
+			);
+			path = "Method_Swizzing坑点Tests";
+			sourceTree = "<group>";
+		};
+		E78B301724518AF3005841E0 /* Method_Swizzing坑点UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E78B301824518AF3005841E0 /* Method_Swizzing__UITests.m */,
+				E78B301A24518AF3005841E0 /* Info.plist */,
+			);
+			path = "Method_Swizzing坑点UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E78B2FED24518AF0005841E0 /* Method_Swizzing坑点 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78B301D24518AF3005841E0 /* Build configuration list for PBXNativeTarget "Method_Swizzing坑点" */;
+			buildPhases = (
+				E78B2FEA24518AF0005841E0 /* Sources */,
+				E78B2FEB24518AF0005841E0 /* Frameworks */,
+				E78B2FEC24518AF0005841E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Method_Swizzing坑点";
+			productName = "Method_Swizzing坑点";
+			productReference = E78B2FEE24518AF0005841E0 /* Method_Swizzing坑点.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E78B300824518AF3005841E0 /* Method_Swizzing坑点Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78B302024518AF3005841E0 /* Build configuration list for PBXNativeTarget "Method_Swizzing坑点Tests" */;
+			buildPhases = (
+				E78B300524518AF3005841E0 /* Sources */,
+				E78B300624518AF3005841E0 /* Frameworks */,
+				E78B300724518AF3005841E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E78B300B24518AF3005841E0 /* PBXTargetDependency */,
+			);
+			name = "Method_Swizzing坑点Tests";
+			productName = "Method_Swizzing坑点Tests";
+			productReference = E78B300924518AF3005841E0 /* Method_Swizzing坑点Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E78B301324518AF3005841E0 /* Method_Swizzing坑点UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78B302324518AF3005841E0 /* Build configuration list for PBXNativeTarget "Method_Swizzing坑点UITests" */;
+			buildPhases = (
+				E78B301024518AF3005841E0 /* Sources */,
+				E78B301124518AF3005841E0 /* Frameworks */,
+				E78B301224518AF3005841E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E78B301624518AF3005841E0 /* PBXTargetDependency */,
+			);
+			name = "Method_Swizzing坑点UITests";
+			productName = "Method_Swizzing坑点UITests";
+			productReference = E78B301424518AF3005841E0 /* Method_Swizzing坑点UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E78B2FE624518AF0005841E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = zhaixingzhi;
+				TargetAttributes = {
+					E78B2FED24518AF0005841E0 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					E78B300824518AF3005841E0 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = E78B2FED24518AF0005841E0;
+					};
+					E78B301324518AF3005841E0 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = E78B2FED24518AF0005841E0;
+					};
+				};
+			};
+			buildConfigurationList = E78B2FE924518AF0005841E0 /* Build configuration list for PBXProject "Method_Swizzing坑点" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E78B2FE524518AF0005841E0;
+			productRefGroup = E78B2FEF24518AF0005841E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E78B2FED24518AF0005841E0 /* Method_Swizzing坑点 */,
+				E78B300824518AF3005841E0 /* Method_Swizzing坑点Tests */,
+				E78B301324518AF3005841E0 /* Method_Swizzing坑点UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E78B2FEC24518AF0005841E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78B300124518AF3005841E0 /* LaunchScreen.storyboard in Resources */,
+				E78B2FFE24518AF3005841E0 /* Assets.xcassets in Resources */,
+				E78B2FFC24518AF1005841E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78B300724518AF3005841E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78B301224518AF3005841E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E78B2FEA24518AF0005841E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78B2FF924518AF1005841E0 /* ViewController.m in Sources */,
+				E78B2FF324518AF1005841E0 /* AppDelegate.m in Sources */,
+				E78B302E24518B69005841E0 /* XZRunTimeTool.m in Sources */,
+				E78B300424518AF3005841E0 /* main.m in Sources */,
+				E78B302824518B1A005841E0 /* XZPerson.m in Sources */,
+				E78B2FF624518AF1005841E0 /* SceneDelegate.m in Sources */,
+				E78B302B24518B32005841E0 /* XZStudent.m in Sources */,
+				E78B303124518BC2005841E0 /* XZStudent+XZ.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78B300524518AF3005841E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78B300E24518AF3005841E0 /* Method_Swizzing__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78B301024518AF3005841E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78B301924518AF3005841E0 /* Method_Swizzing__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E78B300B24518AF3005841E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E78B2FED24518AF0005841E0 /* Method_Swizzing坑点 */;
+			targetProxy = E78B300A24518AF3005841E0 /* PBXContainerItemProxy */;
+		};
+		E78B301624518AF3005841E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E78B2FED24518AF0005841E0 /* Method_Swizzing坑点 */;
+			targetProxy = E78B301524518AF3005841E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E78B2FFA24518AF1005841E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E78B2FFB24518AF1005841E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E78B2FFF24518AF3005841E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E78B300024518AF3005841E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E78B301B24518AF3005841E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E78B301C24518AF3005841E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E78B301E24518AF3005841E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22XQSQW7E7;
+				INFOPLIST_FILE = "Method_Swizzing坑点/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alan.Method-Swizzing--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E78B301F24518AF3005841E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22XQSQW7E7;
+				INFOPLIST_FILE = "Method_Swizzing坑点/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alan.Method-Swizzing--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E78B302124518AF3005841E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22XQSQW7E7;
+				INFOPLIST_FILE = "Method_Swizzing坑点Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alan.Method-Swizzing--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Method_Swizzing坑点.app/Method_Swizzing坑点";
+			};
+			name = Debug;
+		};
+		E78B302224518AF3005841E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22XQSQW7E7;
+				INFOPLIST_FILE = "Method_Swizzing坑点Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alan.Method-Swizzing--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Method_Swizzing坑点.app/Method_Swizzing坑点";
+			};
+			name = Release;
+		};
+		E78B302424518AF3005841E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22XQSQW7E7;
+				INFOPLIST_FILE = "Method_Swizzing坑点UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alan.Method-Swizzing--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Method_Swizzing坑点";
+			};
+			name = Debug;
+		};
+		E78B302524518AF3005841E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22XQSQW7E7;
+				INFOPLIST_FILE = "Method_Swizzing坑点UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alan.Method-Swizzing--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Method_Swizzing坑点";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E78B2FE924518AF0005841E0 /* Build configuration list for PBXProject "Method_Swizzing坑点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78B301B24518AF3005841E0 /* Debug */,
+				E78B301C24518AF3005841E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78B301D24518AF3005841E0 /* Build configuration list for PBXNativeTarget "Method_Swizzing坑点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78B301E24518AF3005841E0 /* Debug */,
+				E78B301F24518AF3005841E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78B302024518AF3005841E0 /* Build configuration list for PBXNativeTarget "Method_Swizzing坑点Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78B302124518AF3005841E0 /* Debug */,
+				E78B302224518AF3005841E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78B302324518AF3005841E0 /* Build configuration list for PBXNativeTarget "Method_Swizzing坑点UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78B302424518AF3005841E0 /* Debug */,
+				E78B302524518AF3005841E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E78B2FE624518AF0005841E0 /* Project object */;
+}
